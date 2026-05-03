@@ -218,7 +218,7 @@
     {/if}
   </main>
 
-  <Footer onNavigate={navigate} onSubscribe={() => showToast('Aboneliğiniz alındı.')} />
+  <Footer cities={cities} onNavigate={navigate} onSubscribe={() => showToast('Aboneliğiniz alındı.')} />
 
   <AuthModal
     open={authModalOpen}

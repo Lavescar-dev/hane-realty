@@ -186,6 +186,32 @@
     chevronDown: `
       <path d="m6 9 6 6 6-6"></path>
     `,
+    instagram: `
+      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+      <circle cx="12" cy="12" r="4"></circle>
+      <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"></circle>
+    `,
+    twitter: `
+      <path d="M21 5.5c-.7.4-1.5.7-2.4.8a4 4 0 0 0 1.8-2.2 8 8 0 0 1-2.6 1A4 4 0 0 0 11 8.6a11.4 11.4 0 0 1-8.3-4.2 4 4 0 0 0 1.2 5.4c-.7 0-1.3-.2-1.8-.5v.1a4 4 0 0 0 3.2 4 4 4 0 0 1-1.8.1 4 4 0 0 0 3.7 2.8 8 8 0 0 1-5.9 1.7A11.3 11.3 0 0 0 7.5 20c7.4 0 11.4-6.1 11.4-11.4v-.5A8 8 0 0 0 21 5.5Z"></path>
+    `,
+    youtube: `
+      <rect x="3" y="6" width="18" height="12" rx="2.5"></rect>
+      <path d="m10 9 5 3-5 3V9Z" fill="currentColor"></path>
+    `,
+    linkedin: `
+      <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+      <path d="M8 10v8"></path>
+      <circle cx="8" cy="7" r="0.8" fill="currentColor"></circle>
+      <path d="M12 18v-5a3 3 0 0 1 6 0v5"></path>
+      <path d="M12 13v5"></path>
+    `,
+    apple: `
+      <path d="M16.4 4.5a3.7 3.7 0 0 1-3.7 3.7 3.7 3.7 0 0 1 3.7-3.7Z"></path>
+      <path d="M19 16.7a8 8 0 0 1-1.6 3 3.5 3.5 0 0 1-3 1.7c-1.2 0-1.5-.7-2.9-.7-1.4 0-1.8.7-2.8.8a3.5 3.5 0 0 1-3-1.6c-2-3-2-7.4 0-9.7a4.6 4.6 0 0 1 3.3-1.5c1.2 0 2.2.7 2.9.7.7 0 2-.9 3.5-.7a4.5 4.5 0 0 1 3.5 2 4.4 4.4 0 0 0-2.7 4 4.5 4.5 0 0 0 2.8 4Z"></path>
+    `,
+    chat: `
+      <path d="M3 12c0-4.4 4-8 9-8s9 3.6 9 8-4 8-9 8c-1.4 0-2.7-.3-3.9-.8L3 21l1.2-4.4A7.4 7.4 0 0 1 3 12Z"></path>
+    `,
   };
 
   $: markup = icons[name] ?? icons.sparkles;
